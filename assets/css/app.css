@@ -1180,7 +1180,7 @@ Elements
     font-weight: 700 !important;
     line-height: 120%;
     /* 21.6px */
-    background-color: #371406;
+    background-color: #ff0000;
     border-radius: clamp(28px, 2.5vw, 68px);
     color: #FFFFFF !important;
     border: 0.5px solid #371406;
@@ -1201,7 +1201,7 @@ Elements
     position: absolute;
     top: 50%;
     left: 50%;
-    background-color: #ECD6D0;
+    background-color: #cccccc;
     border-radius: clamp(28px, 2.5vw, 68px);
     backdrop-filter: blur(17.5px);
     transform: translate(-50%, -50%) rotate(45deg);
@@ -1525,7 +1525,7 @@ textarea.form-control {
 }
 
 .form-control::placeholder {
-    color: #92949F;
+    color: #ff0000;
     opacity: 1;
 }
 
@@ -1686,7 +1686,7 @@ label.error {
     width: 20px;
     height: 20px;
     margin-right: 12px;
-    border: 2px solid #92949F;
+    border: 2px solid #CCCCCC;
     border-radius: 4px;
     transition: all 0.3s;
 }
@@ -1698,7 +1698,7 @@ label.error {
     display: grid;
     align-items: center;
     justify-content: center;
-    background: #ECD6D0;
+    background: #cccccc;
     z-index: 10000;
 }
 
@@ -1722,7 +1722,7 @@ label.error {
 }
 
 #preloader .cupcontainer .cup {
-    border-bottom: 40px solid #371406;
+    border-bottom: 40px solid #ff0000;
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
     height: 0;
@@ -1736,7 +1736,7 @@ label.error {
 #preloader .cupcontainer .handle {
     width: 20px;
     height: 20px;
-    border: 6px solid #371406;
+    border: 6px solid #ff0000;
     position: relative;
     top: -30px;
     left: 41px;
@@ -1756,7 +1756,7 @@ label.error {
 }
 
 .plate {
-    background: #371406;
+    background: #ff0000;
     width: 100px;
     height: 6px;
     border-radius: 3px;
@@ -1767,7 +1767,7 @@ label.error {
 }
 
 .bottom {
-    background: #371406;
+    background: #ff0000;
     width: 60px;
     height: 6px;
     border-bottom-left-radius: 5px;
@@ -1800,7 +1800,7 @@ label.error {
 .smoke1::before,
 .smoke1::after {
     content: "";
-    background: #371406;
+    background: #ff0000;
     position: absolute;
     animation: load 0.9s infinite reverse ease-in-out;
     border-radius: 3px;
@@ -1818,7 +1818,7 @@ label.error {
 .smoke2::before,
 .smoke2::after {
     content: "";
-    background: #371406;
+    background: #ff0000;
     position: absolute;
     animation: load 0.6s infinite reverse ease-in-out;
     border-radius: 3px;
@@ -1837,7 +1837,7 @@ label.error {
 .smoke3::before,
 .smoke3::after {
     content: "";
-    background: #371406;
+    background: #ff0000;
     position: absolute;
     animation: load 0.9s infinite 0.5s reverse ease-in-out;
     border-radius: 3px;
@@ -2346,7 +2346,7 @@ label.error {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.32px;
-    color: #1E1F20;
+    color: #cccccc;
     display: flex;
     align-items: center;
     gap: clamp(18px, 1.25vw, 48px) !important;
@@ -2370,7 +2370,7 @@ label.error {
 
 .header .navigation .menu-button-right .main-menu__nav .main-menu__list>li>a.active,
 .header .navigation .menu-button-right .main-menu__nav .stricky-header .main-menu__list>li>a.active {
-    color: #371406;
+    color: #000000;
 }
 
 .header .navigation .menu-button-right .main-menu__nav .main-menu__list>li>a:hover,
@@ -2383,7 +2383,7 @@ label.error {
     content: "";
     width: clamp(4px, 0.417vw, 16px);
     height: clamp(4px, 0.417vw, 16px);
-    background: #1E1F20;
+    background: #ff0000;
     margin-top: -1px;
     border-radius: clamp(4px, 0.417vw, 16px);
 }
@@ -2878,7 +2878,7 @@ label.error {
     line-height: 120%;
     /* 156px */
     letter-spacing: -3.9px;
-    background: linear-gradient(90deg, #9E675F -9.62%, #371406 101.5%);
+    background: linear-gradient(90deg, #ff0000 -9.62%, #ff0000 101.5%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
