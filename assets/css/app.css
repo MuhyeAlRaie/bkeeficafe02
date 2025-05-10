@@ -517,7 +517,7 @@ Helpers
 -------------------------*/
 
 .color-primary {
-    color: #371406;
+    color: #ff0000;
 }
 
 .primary-hover:hover {
@@ -529,7 +529,7 @@ Helpers
 }
 
 .color-ter {
-    color: #946926;
+    color: #cccccc;
 }
 
 .black {
@@ -2878,7 +2878,7 @@ label.error {
     line-height: 120%;
     /* 156px */
     letter-spacing: -3.9px;
-    background: linear-gradient(90deg, #ff0000 -9.62%, #ff0000 101.5%);
+    background: linear-gradient(90deg, #000000 -9.62%, #000000 101.5%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -3059,12 +3059,12 @@ label.error {
     justify-content: space-between;
     padding: clamp(12px, 0.833vw, 32px) clamp(24px, 1.667vw, 64px);
     border-radius: clamp(8px, 0.625vw, 24px);
-    border: 1px solid #ECD6D0;
+    border: 1px solid #ff0000;
     transition: all 0.3s ease-in-out;
 }
 
 .menu .menu-block-1:hover {
-    background: linear-gradient(276deg, #F2E0DB 6.1%, #FFF 140.12%);
+    background: linear-gradient(276deg, #ff0000 6.1%, #FFF 140.12%);
 }
 
 .category .category-item {
@@ -3852,7 +3852,7 @@ label.error {
     transition: all 0.3s ease-in-out;
     padding: clamp(18px, 1.25vw, 48px) !important;
     border-radius: clamp(18px, 1.25vw, 48px);
-    background: linear-gradient(5deg, #F2E0DB 1.57%, #FFF 128.95%);
+    /* background: linear-gradient(5deg, #ff00004b 1.57%, #FFF 128.95%); */
 }
 
 .blog-sec .blog-1 .blog-content .time-line {
@@ -3869,7 +3869,7 @@ label.error {
 }
 
 .blog-sec .blog-1 .read-more-btn span {
-    color: #946926 !important;
+    color: #ff0000 !important;
     transition: all 0.3s ease-in-out;
     text-transform: uppercase;
 }
@@ -4058,7 +4058,7 @@ footer .footer-links-wrapper .social-links-block .social-links {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: #371406;
+    background-color: #ffffff;
     width: clamp(30px, 1.667vw, 64px);
     height: clamp(30px, 1.667vw, 64px);
     transition: all 0.3s ease-in-out;
@@ -4070,7 +4070,7 @@ footer .footer-links-wrapper .social-links-block .social-links svg {
 }
 
 footer .footer-links-wrapper .social-links-block .social-links:hover {
-    background-color: #946926;
+    background-color: #ff0000;
 }
 
 footer .hr-line {
